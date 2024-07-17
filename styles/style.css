@@ -181,6 +181,7 @@ body{
     text-align: center;
     max-width: 1440px;
     margin: 0 auto;
+    margin-bottom: 125px;
 }
 .instagram-container h2{
     font-size: 2.5rem;
@@ -200,7 +201,41 @@ body{
 }
 /* instagram section styles end */
 
-
+/* latest deals section styles start */
+.deals-container{
+    max-width: 1440px;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url('../images/latest-deals-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 125px;
+    border-radius: 8px;
+}
+.deals-text-content{
+    padding: 120px 285px;
+    text-align: center;
+    align-items: center;
+}
+.deals-text-content h2{
+    font-size: 2.3rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.deals-text-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 35px;
+}
+.deals-text-content  input{
+    padding: 18px 420px 18px 15px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.6);
+    margin-right: 15px;
+}
+/* latest deals section styles end */
 
 
 
