@@ -145,7 +145,7 @@ body{
 
 /* discount section styles start */
 .discount-container{
-    width: 1922px;
+    max-width: 1920px;
     height: 620px;
     margin: 0 auto;
     border-radius: 8px;
@@ -174,11 +174,31 @@ body{
 .span{
     color: rgb(229, 84, 115);
 }
-
-
 /* discount section styles end */
 
-
+/* instagram section styles start */
+.instagram-container{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.instagram-container h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.instagram-container p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    margin-bottom: 45px;
+}
+.flower-card{
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+}
+/* instagram section styles end */
 
 
 
