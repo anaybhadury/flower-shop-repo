@@ -19,6 +19,7 @@ body{
     font-family: Lato;
     font-size: 18px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 /* shared styles end */
@@ -140,11 +141,42 @@ body{
 .service-container div img{
     margin-bottom: 15px;
 }
-
-
 /* service section styles end */
 
+/* discount section styles start */
+.discount-container{
+    width: 1922px;
+    height: 620px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.discount-text-content{
+    width: 550px;
+    text-align: center;
+    margin-right: 150px;
+}
+.discount-text-content h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.discount-text-content p{
+    font-size: 1rem;
+    font-weight: 450;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+.span{
+    color: rgb(229, 84, 115);
+}
 
+
+/* discount section styles end */
 
 
 
